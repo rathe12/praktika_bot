@@ -1,0 +1,1 @@
+from proxy_checker.proxy_check import check_proxy

@@ -1,0 +1,1 @@
+from token_checker.token_check import check_tokens
