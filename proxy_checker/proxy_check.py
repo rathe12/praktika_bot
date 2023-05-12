@@ -68,19 +68,3 @@ async def check_proxy(text):
                             f'{country_code}:{proxy[1].lower()}:{nagovnokodil[0]}:{nagovnokodil[1]}@{nagovnokodil[2]}:{nagovnokodil[3]}')
 
     return end_proxy_list
-
-# if __name__ == '__main__':
-#     asyncio.run(check_proxy("""
-#      8.219.97.248:80
-# 124.13.181.6:80
-# 103.216.103.163:80
-# 181.189.135.90:8080
-# 13.95.173.197:80
-# 158.160.56.149:8080
-# 152.69.215.206:80
-# 34.106.12.175:8585
-# 95.183.140.94:80
-# 95.183.140.89:80
-# 182.72.203.246:80
-# 117.102.81.3:53281
-#        """))
